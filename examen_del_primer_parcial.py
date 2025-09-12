@@ -37,7 +37,6 @@ def histograma_np():
     
     return (hist, bordes)
 
-from scipy.stats import pearsonr
 
 def correlacion():
     tamano = [100, 120, 140, 160, 180, 200, 220, 240, 260, 280]
