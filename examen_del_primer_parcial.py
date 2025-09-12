@@ -1,5 +1,5 @@
 import numpy as np
-import numpy as np
+import pandas as pd
 
 # Importante: verifica que tu nombre y número de matrícula esten correctos
 
@@ -38,6 +38,7 @@ def histograma_np():
     return (hist, bordes)
 
 
+from scipy.stats import pearsonr
 def correlacion():
     tamano = [100, 120, 140, 160, 180, 200, 220, 240, 260, 280]
     precio = [1385710, 1658277, 1894167, 2136552, 2298267, 2553624, 2788053, 3289726, 3472743, 3779477]
