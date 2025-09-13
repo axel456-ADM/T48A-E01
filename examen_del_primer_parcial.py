@@ -35,7 +35,7 @@ def histograma_np():
 
     hist = np.histogram(calificaciones)  
     
-    return (hist, bordes)
+    return (hist)
 
 
 from scipy.stats import pearsonr
