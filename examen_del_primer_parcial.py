@@ -33,7 +33,7 @@ def histograma_np():
                      6.6, 5.7, 9.4, 8.4, 7.2, 6.3, 5.1, 4.8, 5.0, 6.1, 7.1, 8.2,
                      9.3, 10.0, 8.9]
 
-    hist, bordes = np.histogram(calificaciones, bordes='auto')  
+    hist = np.histogram(calificaciones)  
     
     return (hist, bordes)
 
