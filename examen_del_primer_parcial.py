@@ -14,7 +14,7 @@ def capitalizacion():
     mediana = np.median(datos)
     moda = pd.Series(datos).mode()[0]
     desv_est = np.std(datos)
-    return (media, mediana, moda, desv_est)
+    return (media, mediana, desv_est, moda)
 
 def asistencia_dispersion():
     # inserta tu código aquí:
