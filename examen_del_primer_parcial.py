@@ -22,7 +22,6 @@ def asistencia_dispersion():
     rango = np.max(asistencias) - np.min(asistencias)
     varianza = np.var(asistencias)
     desv_est = np.std(asistencias)
-
     return (rango, varianza, desv_est)
 
 def histograma_np():
